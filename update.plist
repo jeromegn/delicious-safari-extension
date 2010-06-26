@@ -6,15 +6,15 @@
    <array>
      <dict>
        <key>CFBundleIdentifier</key>
-       <string>com.web1984.Delicious</string>
+       <string>com.web1984.savetodelicious</string>
        <key>Developer Identifier</key>
-       <string>YourCertifcateID</string>
+       <string>33A2DZ82AS</string>
        <key>CFBundleVersion</key>
-       <string>Your current bundle version</string>
+       <string>1</string>
        <key>CFBundleShortVersionString</key>
-       <string>Your current display version</string>
+       <string>1.1</string>
        <key>URL</key>
-       <string>Your-.safariextz-URL</string>
+       <string>http://shunuk.github.com/delicious-safari-extension/update.plist</string>
      </dict>
    </array>
 </dict>
