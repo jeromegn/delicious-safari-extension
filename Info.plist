@@ -64,6 +64,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://shunuk.github.com/delicious-safari-extension/update.plist</string>
 	<key>Website</key>
 	<string>http://web1984.com/</string>
 </dict>
