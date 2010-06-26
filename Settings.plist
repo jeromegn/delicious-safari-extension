@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array/>
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<string>tab</string>
+		<key>Key</key>
+		<string>DeliciousOpenNewOption</string>
+		<key>Title</key>
+		<string>Open Delicious in new…</string>
+		<key>Titles</key>
+		<array>
+			<string>Tab</string>
+			<string>Window</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>tab</string>
+			<string>window</string>
+		</array>
+	</dict>
+</array>
 </plist>

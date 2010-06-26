@@ -6,13 +6,18 @@
 <script>
 	function performCommand(event) {
 
-	    if (event.command === "DeliciousToolbarItem") {
+	    if (event.command === "DeliciousToolbarItem" || event.command === "DeliciousContextMenuItem") {
 			var currentTabUrl = encodeURIComponent(safari.application.activeBrowserWindow.activeTab.url);
 			var currentTabTitle = encodeURIComponent(safari.application.activeBrowserWindow.activeTab.title);
+			var open_new_setting = safari.extension.settings.DeliciousOpenNewOption;
+			var delicious_url = 'http://delicious.com/save?v=5&noui&jump=close&url='+currentTabUrl+'&title='+currentTabTitle;
 
-			var deliciousTab = safari.application.activeBrowserWindow.openTab();
-			deliciousTab.url = 'http://delicious.com/save?v=5&noui&jump=close&url='+currentTabUrl+'&title='+currentTabTitle;
-
+			if(open_new_setting === "tab") {
+				var delicious_tab = safari.application.activeBrowserWindow.openTab();
+			} else if(open_new_setting === "window") {
+				var delicious_tab = safari.application.openBrowserWindow().activeTab;
+			}
+			delicious_tab.url = delicious_url;
 	    }
 	}
  

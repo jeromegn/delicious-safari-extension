@@ -3,19 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Jeveaux</string>
+	<string>Jeveaux (contribs from Shunuk)</string>
 	<key>CFBundleDisplayName</key>
-	<string>delicious</string>
+	<string>Save to Delicious</string>
 	<key>CFBundleIdentifier</key>
-	<string>br.com.giran.safari.delicious</string>
+	<string>com.web1984.savetodelicious</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
 	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>DeliciousContextMenuItem</string>
+				<key>Identifier</key>
+				<string>DeliciousContextMenuItem</string>
+				<key>Title</key>
+				<string>Save URL to Delicious</string>
+			</dict>
+		</array>
 		<key>Global Page</key>
 		<string>DeliciousGlobalsPage.html</string>
 		<key>Toolbar Items</key>
@@ -29,10 +40,8 @@
 				<string>delicious.png</string>
 				<key>Label</key>
 				<string>Delicious</string>
-				<key>Palette Label</key>
-				<string></string>
 				<key>Tool Tip</key>
-				<string>Manage your delicious bookmarks</string>
+				<string>Save current URL to Delicious</string>
 			</dict>
 		</array>
 	</dict>
@@ -42,7 +51,7 @@
 		<dict/>
 	</dict>
 	<key>Description</key>
-	<string>Save your bookmarks</string>
+	<string>Save the current URL to Delicious</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -56,6 +65,6 @@
 		</dict>
 	</dict>
 	<key>Website</key>
-	<string>http://www.jeveaux.com</string>
+	<string>http://web1984.com/</string>
 </dict>
 </plist>
